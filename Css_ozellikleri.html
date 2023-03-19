@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .section {
+        background-color: rgb(134, 134, 204);
+        width: 100%;
+        display: inline-block;
+        padding: 10px;
+      }
+
+      .wel {
+        background-color: blueviolet;
+        width: 100%;
+        height: 500px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .hit {
+        background-color: burlywood;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .nav_ {
+        display: inline-block;
+        width: calc(100% - 90px);
+        text-align: right;
+      }
+
+      .link_ {
+        text-decoration: none;
+        color: rgb(151, 64, 64);
+        padding: 5px;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      a:link {
+        color: rgb(43, 104, 134);
+      }
+
+      a:visited {
+        color: rgb(240, 248, 255);
+      }
+
+      a:hover {
+        color: rgb(107, 180, 152);
+        background-color: rgb(207, 220, 230);
+      }
+
+      a:active {
+        color: rgb(169, 189, 197);
+        background-color: rgb(61, 110, 152);
+      }
+
+      div:hover p {
+        display: block;
+      }
+
+      p {
+        display: none;
+      }
+
+      .div_:hover p {
+        display: block;
+      }
+
+      .p_:hover {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <a href="" class="link_">MovieApp</a>
+      <nav class="nav_">
+        <a href="" class="link_">movie</a>
+        <a href="" class="link_">video</a>
+        <a href="" class="link_">text</a>
+      </nav>
+    </section>
+
+    <main>
+      <section class="wel">
+        <div>
+          <h1>Welcome to Movie App</h1>
+
+          <p>
+            Welcome to the MovieApp page. You can access all kinds of
+            information and articles about movies on our page, and you can also
+            send us your own ideas and opinions in this field.
+          </p>
+        </div>
+      </section>
+      <section class="hit">
+        <div class="div_">
+          <h1>Current articles</h1>
+          <p class="p_">Stay tuned for the latest articles.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
